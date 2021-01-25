@@ -10,25 +10,33 @@
     <header>
         <div class="header-content">
             <h1>
-                APOD - Usando a API da NASA
+                APOD - API NASA
             </h1>
         </div>
     </header>
 
-
     <main>
-        <div id="container">
+        <div class="campo-search" id="campoSearch">
             <input id="data" type="date">
             <button id="procurarImagem">Procurar</button>
-            <button>Dia Anterior</button>
-            <button>Dia Posterior</button>
+        </div>
+        <div class="campo-botao">
+        <button id="diaAnterior">Dia Anterior</button>
+        <button id="diaPosterior">Dia Posterior</button>
+        </div>
+        <div class="campo-imagem" id="campoImagem">
+        </div>
+        <div id="campoTexto">
+
         </div>
     </main>
 
-
     <footer>
-
+        <!-- <div class="footer-content">
+        Criado por Matheus Yamasato
+        </div> -->
     </footer>
+
     <script src="index.js"></script>
 </body>
 </html>

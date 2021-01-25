@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.campo-search {
+    display: flex;
+    margin-top: 20px;
+    justify-content:center;
+}
+
+.campo-botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.campo-imagem {
+    display: flex;  
+    justify-content: center;
+}
+
+.imagem {
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+}
+
+/* .footer-content {
+    position: ;
+    bottom: 0;
+} */
